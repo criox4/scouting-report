@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T05:37:53.482368+00:00",
+  "title": "Design System: Scouting Report",
+  "extensions": {
+    "colorMeta": {
+      "desk": {
+        "role": "neutral",
+        "displayName": "Carbon Desk",
+        "canonical": "oklch(34.8% 0.158 270)",
+        "tonalRamp": [
+          "oklch(15% 0.158 270)",
+          "oklch(26% 0.158 270)",
+          "oklch(38% 0.158 270)",
+          "oklch(49% 0.158 270)",
+          "oklch(61% 0.158 270)",
+          "oklch(72% 0.158 270)",
+          "oklch(84% 0.158 270)",
+          "oklch(95% 0.158 270)"
+        ],
+        "dark": "#070917",
+        "cssVar": "--desk"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Canary Form Paper",
+        "canonical": "oklch(95% 0.076 102)",
+        "tonalRamp": [
+          "oklch(15% 0.076 102)",
+          "oklch(26% 0.076 102)",
+          "oklch(38% 0.076 102)",
+          "oklch(49% 0.076 102)",
+          "oklch(61% 0.076 102)",
+          "oklch(72% 0.076 102)",
+          "oklch(84% 0.076 102)",
+          "oklch(95% 0.076 102)"
+        ],
+        "dark": "#12163a",
+        "cssVar": "--paper"
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Second-Ply Canary",
+        "canonical": "oklch(91.4% 0.088 101)",
+        "tonalRamp": [
+          "oklch(15% 0.088 101)",
+          "oklch(26% 0.088 101)",
+          "oklch(38% 0.088 101)",
+          "oklch(49% 0.088 101)",
+          "oklch(61% 0.088 101)",
+          "oklch(72% 0.088 101)",
+          "oklch(84% 0.088 101)",
+          "oklch(95% 0.088 101)"
+        ],
+        "dark": "#191e4a",
+        "cssVar": "--paper-2"
+      },
+      "print": {
+        "role": "neutral",
+        "displayName": "Press Black",
+        "canonical": "oklch(22.1% 0.01 98)",
+        "tonalRamp": [
+          "oklch(15% 0.01 98)",
+          "oklch(26% 0.01 98)",
+          "oklch(38% 0.01 98)",
+          "oklch(49% 0.01 98)",
+          "oklch(61% 0.01 98)",
+          "oklch(72% 0.01 98)",
+          "oklch(84% 0.01 98)",
+          "oklch(95% 0.01 98)"
+        ],
+        "dark": "#ece6c2",
+        "cssVar": "--print"
+      },
+      "print-2": {
+        "role": "neutral",
+        "displayName": "Faded Press",
+        "canonical": "oklch(45.8% 0.048 99)",
+        "tonalRamp": [
+          "oklch(15% 0.048 99)",
+          "oklch(26% 0.048 99)",
+          "oklch(38% 0.048 99)",
+          "oklch(49% 0.048 99)",
+          "oklch(61% 0.048 99)",
+          "oklch(72% 0.048 99)",
+          "oklch(84% 0.048 99)",
+          "oklch(95% 0.048 99)"
+        ],
+        "dark": "#b3ac86",
+        "cssVar": "--print-2"
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Carbon Blue",
+        "canonical": "oklch(34.8% 0.158 270)",
+        "tonalRamp": [
+          "oklch(15% 0.158 270)",
+          "oklch(26% 0.158 270)",
+          "oklch(38% 0.158 270)",
+          "oklch(49% 0.158 270)",
+          "oklch(61% 0.158 270)",
+          "oklch(72% 0.158 270)",
+          "oklch(84% 0.158 270)",
+          "oklch(95% 0.158 270)"
+        ],
+        "dark": "#b4beff",
+        "cssVar": "--ink"
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Faint Carbon",
+        "canonical": "oklch(47.8% 0.117 275)",
+        "tonalRamp": [
+          "oklch(15% 0.117 275)",
+          "oklch(26% 0.117 275)",
+          "oklch(38% 0.117 275)",
+          "oklch(49% 0.117 275)",
+          "oklch(61% 0.117 275)",
+          "oklch(72% 0.117 275)",
+          "oklch(84% 0.117 275)",
+          "oklch(95% 0.117 275)"
+        ],
+        "dark": "#8c96d6",
+        "cssVar": "--ink-2"
+      },
+      "stamp": {
+        "role": "secondary",
+        "displayName": "Rubber-Stamp Red",
+        "canonical": "oklch(50.7% 0.186 24)",
+        "tonalRamp": [
+          "oklch(15% 0.186 24)",
+          "oklch(26% 0.186 24)",
+          "oklch(38% 0.186 24)",
+          "oklch(49% 0.186 24)",
+          "oklch(61% 0.186 24)",
+          "oklch(72% 0.186 24)",
+          "oklch(84% 0.186 24)",
+          "oklch(95% 0.186 24)"
+        ],
+        "dark": "#ff7a7a",
+        "cssVar": "--stamp"
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Field Rule",
+        "canonical": "color-mix(in oklab, var(--ink) 42%, transparent)",
+        "tonalRamp": [
+          "oklch(15% 0.158 270)",
+          "oklch(26% 0.158 270)",
+          "oklch(38% 0.158 270)",
+          "oklch(49% 0.158 270)",
+          "oklch(61% 0.158 270)",
+          "oklch(72% 0.158 270)",
+          "oklch(84% 0.158 270)",
+          "oklch(95% 0.158 270)"
+        ],
+        "dark": "color-mix(in oklab, var(--ink) 42%, transparent)",
+        "cssVar": "--rule"
+      },
+      "rule-soft": {
+        "role": "neutral",
+        "displayName": "Soft Rule",
+        "canonical": "color-mix(in oklab, var(--ink) 20%, transparent)",
+        "tonalRamp": [
+          "oklch(15% 0.158 270)",
+          "oklch(26% 0.158 270)",
+          "oklch(38% 0.158 270)",
+          "oklch(49% 0.158 270)",
+          "oklch(61% 0.158 270)",
+          "oklch(72% 0.158 270)",
+          "oklch(84% 0.158 270)",
+          "oklch(95% 0.158 270)"
+        ],
+        "dark": "color-mix(in oklab, var(--ink) 20%, transparent)",
+        "cssVar": "--rule-soft"
+      },
+      "wash": {
+        "role": "neutral",
+        "displayName": "Carbon Wash",
+        "canonical": "color-mix(in oklab, var(--ink) 7%, transparent)",
+        "tonalRamp": [
+          "oklch(15% 0.158 270)",
+          "oklch(26% 0.158 270)",
+          "oklch(38% 0.158 270)",
+          "oklch(49% 0.158 270)",
+          "oklch(61% 0.158 270)",
+          "oklch(72% 0.158 270)",
+          "oklch(84% 0.158 270)",
+          "oklch(95% 0.158 270)"
+        ],
+        "dark": "color-mix(in oklab, var(--ink) 7%, transparent)",
+        "cssVar": "--wash"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Form Title",
+        "purpose": "The printed form title in the header, once per page."
+      },
+      "grade": {
+        "displayName": "Poster Grade",
+        "purpose": "The overall grade at poster scale, circled in pen."
+      },
+      "headline": {
+        "displayName": "Section Head",
+        "purpose": "Section bar titles."
+      },
+      "title": {
+        "displayName": "Typed Grade",
+        "purpose": "Tool grades and the overall descriptor."
+      },
+      "body": {
+        "displayName": "Typed Entry",
+        "purpose": "Every data value and sentence about the wallet."
+      },
+      "body-print": {
+        "displayName": "Fine Print",
+        "purpose": "Formula basis, method list, section meta, footer."
+      },
+      "label": {
+        "displayName": "Field Label",
+        "purpose": "Printed caption of every form field and ledger column."
+      },
+      "stamp": {
+        "displayName": "Stamp",
+        "purpose": "The verdict stamp only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sheet-lift",
+        "value": "0 24px 48px -16px rgb(4 6 30 / 0.55), 0 2px 6px rgb(4 6 30 / 0.3)",
+        "purpose": "The sheet lifting off the desk; the only shadow in the system."
+      },
+      {
+        "name": "sheet-lift-dark",
+        "value": "0 24px 48px -16px rgb(0 0 0 / 0.7), 0 2px 6px rgb(0 0 0 / 0.5)",
+        "purpose": "Sheet lift in the dark variant."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The single easing for all transitions and filing animations."
+      },
+      {
+        "name": "pen-draw",
+        "value": "700ms stroke-dashoffset 1 -> 0",
+        "purpose": "Pen loop draws around a grade; staggered per grade via --d."
+      },
+      {
+        "name": "caret-drop",
+        "value": "500ms translate 0 -10px + fade",
+        "purpose": "Caret drops onto the overall scale."
+      },
+      {
+        "name": "stamp-thunk",
+        "value": "340ms scale 1.6 -> 1 + fade",
+        "purpose": "Verdict stamp lands last (~1250ms delay)."
+      },
+      {
+        "name": "cursor-blink",
+        "value": "1s steps(1) infinite",
+        "purpose": "Typing cursor on the current filing log line."
+      },
+      {
+        "name": "hover",
+        "value": "120-160ms background-color",
+        "purpose": "Row wash and button fill changes."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "1100px"
+      },
+      {
+        "name": "narrow",
+        "value": "860px"
+      },
+      {
+        "name": "phone",
+        "value": "560px"
+      }
+    ],
+    "darkVariant": {
+      "trigger": "@media (prefers-color-scheme: dark) :root:not([data-theme='light'])",
+      "stampBlend": "normal"
+    }
+  },
+  "components": [
+    {
+      "name": "File Report Button",
+      "kind": "button",
+      "refersTo": "button-file",
+      "description": "The one primary action: file a report on the subject wallet.",
+      "html": "<button class=\"ds-file-btn\">File report</button>",
+      "css": ".ds-file-btn { border: 0; border-radius: 0; padding: 6px 14px; background: var(--ink, #1e2a8a); color: var(--paper, #f8f1b6); font-family: Archivo, 'Arial Narrow', sans-serif; font-stretch: 75%; font-weight: 700; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; transition: background-color 160ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-file-btn:hover { background: var(--print, #1c1b16); } .ds-file-btn:active { translate: 0 1px; } .ds-file-btn:focus-visible { outline: 2px solid var(--ink, #1e2a8a); outline-offset: 2px; }"
+    },
+    {
+      "name": "Subject Field",
+      "kind": "input",
+      "refersTo": "field-input",
+      "description": "A ruled form cell: printed label above a typed carbon entry on a dotted underline.",
+      "html": "<div class=\"ds-field\"><label class=\"ds-lbl\" for=\"ds-subj\">Subject wallet</label><input id=\"ds-subj\" class=\"ds-typed-input\" placeholder=\"Paste a wallet address\"></div>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 6px; padding: 9px 14px 11px; background: var(--paper, #f8f1b6); border-right: 1px solid #1e2a8a6b; border-bottom: 1px solid #1e2a8a6b; border-left: 1px solid #1e2a8a6b; border-top: 1px solid var(--print, #1c1b16); } .ds-lbl { font-family: Archivo, 'Arial Narrow', sans-serif; font-stretch: 75%; font-weight: 650; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--print, #1c1b16); } .ds-typed-input { font-family: 'Courier Prime', 'Courier New', monospace; font-size: 17px; color: var(--ink, #1e2a8a); padding: 4px 0 3px; background: transparent; border: 0; border-bottom: 1px dotted #1e2a8a6b; border-radius: 0; caret-color: var(--ink, #1e2a8a); } .ds-typed-input::placeholder { color: var(--ink-2, #4b559e); opacity: 1; } .ds-typed-input:focus-visible { outline: none; border-bottom: 1px solid var(--ink, #1e2a8a); background: #1e2a8a12; }"
+    },
+    {
+      "name": "Tick Boxes",
+      "kind": "chip",
+      "refersTo": null,
+      "description": "Printed square tick boxes for radio choices; the checked one carries a typed X.",
+      "html": "<div class=\"ds-boxes\"><label class=\"ds-box\"><input type=\"radio\" name=\"ds-p\"><span class=\"ds-mark\"></span>7 days</label><label class=\"ds-box\"><input type=\"radio\" name=\"ds-p\" checked><span class=\"ds-mark\"></span>30 days</label></div>",
+      "css": ".ds-boxes { display: flex; gap: 4px 14px; flex-wrap: wrap; } .ds-box { position: relative; display: inline-flex; align-items: center; gap: 6px; font-family: Archivo, 'Arial Narrow', sans-serif; font-stretch: 87.5%; font-size: 14px; color: var(--print, #1c1b16); cursor: pointer; padding: 3px 0; } .ds-box input { position: absolute; opacity: 0; width: 1px; height: 1px; } .ds-mark { width: 15px; height: 15px; border: 1px solid var(--print, #1c1b16); display: grid; place-items: center; background: var(--paper, #f8f1b6); } .ds-box input:checked + .ds-mark::after { content: 'X'; font-family: 'Courier Prime', 'Courier New', monospace; font-weight: 700; font-size: 14px; line-height: 1; color: var(--ink, #1e2a8a); } .ds-box:hover .ds-mark { background: #1e2a8a12; } .ds-box input:focus-visible + .ds-mark { outline: 2px solid var(--ink, #1e2a8a); outline-offset: 2px; }"
+    },
+    {
+      "name": "Section Bar",
+      "kind": "nav",
+      "refersTo": "section-bar",
+      "description": "Second-ply strip that opens every evidence section.",
+      "html": "<div class=\"ds-section-bar\"><h2 class=\"ds-section-h\">Best calls</h2><span class=\"ds-section-meta\">Top 5 by PnL</span></div>",
+      "css": ".ds-section-bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 20px; padding: 8px 14px; background: var(--paper-2, #efe5a0); border-top: 1px solid var(--print, #1c1b16); border-bottom: 1px solid #1e2a8a6b; } .ds-section-h { margin: 0; font-family: Archivo, 'Arial Narrow', sans-serif; font-stretch: 75%; font-weight: 750; font-size: 15px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--print, #1c1b16); } .ds-section-meta { font-family: Archivo, 'Arial Narrow', sans-serif; font-stretch: 87.5%; font-size: 13px; color: var(--print-2, #5e5838); }"
+    },
+    {
+      "name": "Ledger Row",
+      "kind": "card",
+      "refersTo": "ledger-row-hover",
+      "description": "Typed ledger table with tabular numbers, struck-through closed quantity and red losses.",
+      "html": "<table class=\"ds-ledger\"><thead><tr><th>Token</th><th class=\"ds-num\">Held</th><th class=\"ds-num\">PnL</th></tr></thead><tbody><tr><th>BONK</th><td class=\"ds-num\"><s>1.2M</s></td><td class=\"ds-num ds-down\">-$20.56</td></tr><tr><th>WIF</th><td class=\"ds-num\">340</td><td class=\"ds-num ds-up\">+$14.23</td></tr></tbody></table>",
+      "css": ".ds-ledger { width: 100%; border-collapse: collapse; background: var(--paper, #f8f1b6); } .ds-ledger th, .ds-ledger td { padding: 9px 14px; text-align: left; white-space: nowrap; border-bottom: 1px solid #1e2a8a33; } .ds-ledger thead th { font-family: Archivo, 'Arial Narrow', sans-serif; font-stretch: 75%; font-weight: 650; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--print, #1c1b16); border-bottom: 1px solid #1e2a8a6b; } .ds-ledger tbody th, .ds-ledger td { font-family: 'Courier Prime', 'Courier New', monospace; font-size: 15px; color: var(--ink, #1e2a8a); font-variant-numeric: tabular-nums; } .ds-ledger tbody th { font-weight: 700; } .ds-ledger tbody tr { transition: background-color 120ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-ledger tbody tr:hover { background: #1e2a8a12; } .ds-num { text-align: right !important; } .ds-ledger s { text-decoration-thickness: 1px; color: var(--ink-2, #4b559e); } .ds-up { font-weight: 700; } .ds-ledger td.ds-down { color: var(--stamp, #b81f2a); font-weight: 700; }"
+    },
+    {
+      "name": "Grade Scale",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Printed 20-80 scale; the graded value is circled with a pen loop that draws on.",
+      "html": "<ol class=\"ds-scale\"><li class=\"t\">20</li><li>25</li><li class=\"t\">30</li><li>35</li><li class=\"t\">40</li><li><span class=\"ds-hit\">45<svg viewBox=\"0 0 100 100\" preserveAspectRatio=\"none\"><path pathLength=\"1\" d=\"M28 18 C 60 -2, 102 20, 96 54 C 90 92, 30 102, 8 66 C -6 40, 14 12, 48 6 C 62 4, 72 8, 80 14\"/></svg></span></li><li class=\"t\">50</li><li>55</li><li class=\"t\">60</li><li>65</li><li class=\"t\">70</li><li>75</li><li class=\"t\">80</li></ol>",
+      "css": ".ds-scale { display: grid; grid-template-columns: repeat(13, minmax(0, 1fr)); list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--print, #1c1b16); background: var(--paper, #f8f1b6); } .ds-scale li { position: relative; text-align: center; padding-top: 9px; font-family: Archivo, 'Arial Narrow', sans-serif; font-stretch: 75%; font-size: 12px; color: var(--print-2, #5e5838); font-variant-numeric: tabular-nums; } .ds-scale li::before { content: ''; position: absolute; top: 0; left: 50%; width: 1px; height: 5px; background: var(--print, #1c1b16); } .ds-scale li.t { color: var(--print, #1c1b16); font-weight: 700; } .ds-scale li.t::before { height: 8px; } .ds-hit { position: relative; display: inline-block; color: var(--ink, #1e2a8a); font-weight: 800; } .ds-hit svg { position: absolute; inset: -42% -78% -40% -74%; overflow: visible; pointer-events: none; } .ds-hit path { fill: none; stroke: var(--ink, #1e2a8a); stroke-width: 5.5; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: ds-draw 700ms cubic-bezier(0.16, 1, 0.3, 1) forwards; } @keyframes ds-draw { to { stroke-dashoffset: 0; } } @media (prefers-reduced-motion: reduce) { .ds-hit path { animation: none; stroke-dashoffset: 0; } }"
+    },
+    {
+      "name": "Verdict Stamp",
+      "kind": "custom",
+      "refersTo": "stamp-down",
+      "description": "One rubber stamp per report; red for not profitable, carbon for profitable.",
+      "html": "<p class=\"ds-stamp\">Not profitable</p>",
+      "css": ".ds-stamp { display: inline-block; margin: 16px; rotate: -8deg; padding: 6px 14px 5px; border: 3px solid currentColor; outline: 1px solid currentColor; outline-offset: 3px; font-family: Archivo, 'Arial Narrow', sans-serif; font-stretch: 62.5%; font-weight: 800; font-size: 26px; line-height: 1; letter-spacing: 0.1em; text-transform: uppercase; color: var(--stamp, #b81f2a); mix-blend-mode: multiply; opacity: 0.88; animation: ds-thunk 340ms cubic-bezier(0.16, 1, 0.3, 1) both; } @keyframes ds-thunk { from { scale: 1.6; opacity: 0; } 60% { opacity: 0.95; } } @media (prefers-reduced-motion: reduce) { .ds-stamp { animation: none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Carbon Copy Dossier",
+    "overview": "Every wallet is filed as a paper scouting report: a single canary sheet of continuous carbonless form paper lying on a carbon-blue desk, its pin-feed strips perforated down both sides. The form itself is printed in black condensed Archivo; everything the scout enters is typed in carbon-blue Courier Prime. Grades live on a printed 20–80 scale and get circled in pen as the report files. A rubber stamp delivers the verdict.\n\nThe page is dense and ruled, like an office form: 1px carbon-blue field boxes are the layout grid, not decoration around it. Nothing floats, nothing is rounded, and there are no cards. The only depth in the world is the sheet lifting off the desk. The verdict comes first (overall grade, stamp, three tool grades), then the typed evidence: totals, best calls, positions ledger, swap log, scout's notes, and method and limits at the foot.\n\nThe dark variant flips the material, not the grammar: a blue-black carbon sheet on a near-black desk, with pale cream print and pale periwinkle ink.",
+    "keyCharacteristics": [
+      "Two voices: printed form (Archivo, condensed via the wdth axis, black) and typed entries (Courier Prime, carbon blue, tabular figures).",
+      "Field boxes ruled in 1px carbon blue are the grid; heavier 1px print-black rules open each major band.",
+      "Hand marks on top of print: pen loops around grades, a triangular caret on the overall scale, an X typed in tick boxes, a rotated rubber stamp.",
+      "Square everything. Zero radius anywhere.",
+      "Motion is the act of filing: pen draws, caret drops, stamp thunks, typing cursor blinks."
+    ],
+    "rules": [
+      {
+        "name": "The Carbon Owns Live Rule",
+        "body": "Anything interactive or in motion is carbon blue: focus, hover, the checked mark, the cursor, the pen. Print black is static form; red is only for loss and refusal.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Pigments Rule",
+        "body": "Gains are not green. A positive number is carbon blue set bold; a negative number is stamp red set bold. No other hue enters the sheet.",
+        "section": "colors"
+      },
+      {
+        "name": "The Form-or-Entry Rule",
+        "body": "Printed text (labels, headings, method) is Archivo in print black. Data (numbers, addresses, tokens, sentences about this wallet) is Courier Prime in carbon blue. Never set data in Archivo or form labels in Courier.",
+        "section": "typography"
+      },
+      {
+        "name": "The Width-Axis Rule",
+        "body": "Archivo hierarchy comes from the wdth axis (62.5% / 75% / 87.5%) as much as from size. Condense, don't enlarge.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Sheet Rule",
+        "body": "Only the paper casts a shadow. Panels, buttons and stamps never get their own elevation.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** draw every new layout region as ruled field cells (1px `rule` borders, print-black rule on top of each band).",
+      "**Do** put every data value in Courier Prime carbon blue with tabular figures, and every caption in the 11px condensed uppercase label voice.",
+      "**Do** mark positive values bold carbon and negative values bold stamp red.",
+      "**Do** express a grade on the printed 20–80 scale and mark it by hand (pen loop or caret).",
+      "**Do** keep the filing sequence: pen loops, then caret, then the stamp last.",
+      "**Do** honour `prefers-reduced-motion`: loops render fully drawn, stamp and caret appear without animation, the cursor stops blinking."
+    ],
+    "donts": [
+      "**Don't** round corners, add cards, or give anything but the sheet a shadow.",
+      "**Don't** introduce green, gradients, or any hue beyond paper, print, carbon and stamp red.",
+      "**Don't** put more than one stamp on a report.",
+      "**Don't** build the dark crypto dashboard (big portfolio number, chart, glowing panels); the dark variant is a carbon sheet, not a dashboard."
+    ]
+  }
+}
