@@ -1,0 +1,7 @@
+# HTTPS in front of the app. Certificates come from Let's Encrypt automatically (needs ports 80 + 443 open).
+{$DOMAIN} {
+	encode gzip
+	reverse_proxy pnl-tracker:3000 {
+		flush_interval -1 # stream report progress lines as they happen
+	}
+}
