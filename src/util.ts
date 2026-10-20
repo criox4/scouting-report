@@ -32,7 +32,7 @@ export async function withKey<T>(name: string, keys: string[], fn: (key: string)
       last = e
       if (!KEY_REJECTED.test((e as Error).message)) throw e
       benched.set(k, Date.now() + 15 * 60_000)
-      console.warn(`${name}: key ${keys.indexOf(k) + 1} of ${keys.length} rejected, trying the next one`)
+      console.warn(`${name}: key ${keys.indexOf(k) + 1} of ${keys.length} rejected (${(e as Error).message.slice(0, 120)}), trying the next one`)
     }
   }
   throw last
