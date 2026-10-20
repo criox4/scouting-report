@@ -93,11 +93,15 @@ docker run -d --name pnl-tracker --restart unless-stopped \
   --env-file .env -v pnl-data:/data -p 80:3000 pnl-tracker
 ```
 
-`./deploy.sh [ssh-host] [domain]` does this on a remote Docker host and adds a small Caddy container for HTTPS.
+`./deploy.sh [ssh-host] [port]` does this on a remote Docker host: it copies the source and `.env`,
+builds there, and runs the app on `127.0.0.1:<port>` (default `zd-instance`, `3100`).
 
-- Caddy gets a Let's Encrypt certificate automatically and reverse-proxies to the app over a private Docker network (`deploy/Caddyfile`).
-- With no domain given, it uses the host's free `<ip-with-dashes>.sslip.io` name, which resolves to the server's IP with no signup.
-- Ports 80 and 443 must be open to the internet for the certificate to be issued.
+- **Host with nginx + certbot** (production, zd-instance): `deploy/nginx.conf` is the site config, then
+  `certbot --nginx -d scout.172-104-171-139.nip.io`. Live at https://scout.172-104-171-139.nip.io
+- **Host without a web server:** `CADDY_DOMAIN=<ip-with-dashes>.sslip.io ./deploy.sh host` also starts a
+  Caddy container that gets a Let's Encrypt certificate (`deploy/Caddyfile`). Ports 80 and 443 must be open.
+
+nip.io / sslip.io are free wildcard DNS names that resolve to the IP inside them, so no domain purchase or signup is needed.
 
 ## Project layout
 
