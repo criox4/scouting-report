@@ -93,7 +93,11 @@ docker run -d --name pnl-tracker --restart unless-stopped \
   --env-file .env -v pnl-data:/data -p 80:3000 pnl-tracker
 ```
 
-`./deploy.sh [ssh-host] [port]` does this on a remote Docker host. It copies the source and `.env` over, then builds and restarts the container there.
+`./deploy.sh [ssh-host] [domain]` does this on a remote Docker host and adds a small Caddy container for HTTPS.
+
+- Caddy gets a Let's Encrypt certificate automatically and reverse-proxies to the app over a private Docker network (`deploy/Caddyfile`).
+- With no domain given, it uses the host's free `<ip-with-dashes>.sslip.io` name, which resolves to the server's IP with no signup.
+- Ports 80 and 443 must be open to the internet for the certificate to be issued.
 
 ## Project layout
 
