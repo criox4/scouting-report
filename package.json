@@ -1,0 +1,23 @@
+{
+  "name": "pnl-tracker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "pnl": "node src/cli.ts",
+    "test": "node --test src/*.test.ts"
+  },
+  "dependencies": {
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.cache/
+.env
+next-env.d.ts
+*.tsbuildinfo
+.impeccable/*
+!.impeccable/surfaces/
+!.impeccable/design.json
